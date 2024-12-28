@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="display: flex;flex-direction: column;">
     <header>
         <nav>
         <ul>
@@ -16,8 +16,9 @@
         </ul>
     </nav>
     </header>
-    <main>
-        <article>
+    <main style="display: flex; flex-direction: row; flex: auto;">
+        <div class="main_article">
+        <article style="flex: 2;">
     <h1>Hey there. I am Salomey Tackie</h1>
     <p>I am starting a career in web development specifically front-end development</p>
     <h2>The journey ahead!</h2>
@@ -59,9 +60,12 @@
         </tbody>
     </table>
 </article>
+</div>
+<div class="main_aside">
 <aside>
     <p>placeholder to add comment thread later.</p>
 </aside>
+</div>
 </main>
     <footer>
         <p>Made by Salomey Tackie - <a href="https://www.twitter.com" target="_blank">here</a></p>
